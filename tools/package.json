@@ -1,0 +1,10 @@
+{
+  "name": "veriteknik-reels-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fontsource/inter": "5.0.18",
+    "@fontsource/jetbrains-mono": "5.0.20",
+    "playwright": "1.56.0"
+  }
+}

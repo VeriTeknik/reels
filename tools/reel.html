@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/@fontsource/inter/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/inter/600.css">
+<link rel="stylesheet" href="node_modules/@fontsource/inter/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/jetbrains-mono/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/jetbrains-mono/500.css">
+<style>
+  :root{--bg:#07080d;--card:#0e1220;--line:#1d2336;--txt:#e7eaf3;--mut:#8a93ab;--acc:#7c5cff;--acc2:#e05cff;--ok:#3ddc97;--warn:#ffb547;--bad:#ff5c7a}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1920px;background:var(--bg);overflow:hidden;font-family:Inter,sans-serif;color:var(--txt)}
+  .glow{position:absolute;width:900px;height:900px;border-radius:50%;filter:blur(140px);opacity:.28}
+  .g1{background:#2b1a7a;left:-300px;top:900px}.g2{background:#5a1a6e;right:-350px;top:1300px}
+  header{position:absolute;top:120px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center}
+  header img{height:58px}
+  .pill{border:1.5px solid #1f5b4a;background:#0b1d18;border-radius:40px;padding:14px 26px;font-size:28px;font-weight:600;display:flex;gap:12px;align-items:center}
+  .pill i{width:12px;height:12px;border-radius:50%;background:var(--ok);display:inline-block}
+  .win{position:absolute;top:250px;left:48px;right:48px;height:1210px;background:var(--card);border:1.5px solid var(--line);border-radius:28px;overflow:hidden}
+  .win:before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#2aa3ff,var(--acc),var(--acc2))}
+  .bar{height:72px;border-bottom:1.5px solid var(--line);display:flex;align-items:center;gap:12px;padding:0 30px;color:var(--mut);font-size:26px}
+  .bar b{width:14px;height:14px;border-radius:50%;background:#2a3044;display:inline-block}
+  .bar span{margin-left:14px}
+  .body{padding:30px;display:flex;flex-direction:column;gap:22px}
+  .user{align-self:flex-end;max-width:860px;background:#1c2150;border:1.5px solid #343c86;border-radius:22px;padding:22px 28px;font-size:34px;line-height:1.3;min-height:84px}
+  .caret{display:inline-block;width:3px;height:36px;background:var(--txt);vertical-align:-6px;margin-left:2px}
+  .tool{border:1.5px solid var(--line);background:#0b0f1b;border-radius:18px;padding:20px 24px;display:flex;align-items:center;gap:18px}
+  .tool .name{font-family:'JetBrains Mono';font-size:30px;font-weight:500}
+  .tool .args{font-family:'JetBrains Mono';font-size:23px;color:var(--mut)}
+  .spin{width:30px;height:30px;border-radius:50%;border:4px solid #23304a;border-top-color:var(--ok);flex:none}
+  .done{width:30px;height:30px;border-radius:50%;background:var(--ok);color:#06140e;font-weight:700;font-size:20px;display:flex;align-items:center;justify-content:center;flex:none}
+  .res{border:1.5px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:20px;background:#0b0f1b}
+  .res h4{font-size:22px;letter-spacing:.08em;color:var(--mut);font-weight:600;text-transform:uppercase}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .stat{background:#111628;border:1.5px solid var(--line);border-radius:16px;padding:18px 20px}
+  .stat .v{font-size:58px;font-weight:700;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:23px;color:var(--mut);margin-top:4px}
+  .bad .v{color:var(--bad)}.warn .v{color:var(--warn)}.ok .v{color:var(--ok)}
+  .row{display:flex;justify-content:space-between;font-family:'JetBrains Mono';font-size:25px;padding:8px 0;border-bottom:1px dashed #222a40}
+  .row:last-child{border-bottom:0}
+  .bars{display:flex;flex-direction:column;gap:6px}
+  .meter{height:10px;border-radius:6px;background:linear-gradient(90deg,var(--bad),var(--warn))}
+  .chips{display:flex;flex-wrap:wrap;gap:10px}
+  .chip{font-family:'JetBrains Mono';font-size:23px;padding:8px 14px;border-radius:10px;background:#1a1f33;border:1px solid #2a3150;color:#c9cfe4}
+  .ans{background:#111628;border:1.5px solid #2a3150;border-left:5px solid var(--acc);border-radius:16px;padding:22px 24px;font-size:29px;line-height:1.4}
+  .ans code{font-family:'JetBrains Mono';font-size:25px;background:#1d2340;padding:2px 8px;border-radius:6px;color:#d6dbff}
+  .cta{position:absolute;top:250px;left:48px;right:48px;height:1210px;border-radius:28px;background:radial-gradient(circle at 50% 30%,#1d1650,#0b0d19 70%);border:1.5px solid #2c2a66;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;text-align:center;padding:60px}
+  .cta img{height:84px}
+  .cta h2{font-size:58px;line-height:1.2;font-weight:700}
+  .cta .grad{background:linear-gradient(90deg,#7fb2ff,var(--acc),var(--acc2));-webkit-background-clip:text;color:transparent}
+  .cta .links{display:flex;flex-direction:column;gap:18px;width:100%}
+  .cta .link{font-family:'JetBrains Mono';font-size:30px;border:1.5px solid #34307a;border-radius:16px;padding:22px;background:#0f1124}
+  .cta .link small{display:block;font-family:Inter;font-size:22px;color:var(--mut);margin-bottom:6px}
+  .cap{position:absolute;left:60px;right:60px;top:1500px;text-align:center;font-size:42px;font-weight:700;line-height:1.3;text-shadow:0 2px 12px #000}
+  .cap span{background:rgba(7,8,13,.75);padding:6px 14px;border-radius:12px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  .foot{position:absolute;left:64px;right:64px;bottom:120px;font-size:24px;color:var(--mut);line-height:1.45}
+  .foot b{color:#c9cfe4}
+  .hide{opacity:0}
+</style>
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<header><img src="logo-text.png" alt=""><div class="pill"><i></i>Dogfooding · gerçek çağrı</div></header>
+
+<div class="win" id="win">
+  <div class="bar"><b></b><b></b><b></b><span>AI asistanı · VeriTeknik MCP</span></div>
+  <div class="body">
+    <div class="user" id="user"><span id="utext"></span><span class="caret" id="caret"></span></div>
+    <div class="tool hide" id="tool"><div class="spin" id="spin"></div><div><div class="name">read_server_log</div><div class="args">hostname: test-lab-01 · source: auth · lines: 200</div></div></div>
+    <div class="res hide" id="res">
+      <h4>Son 200 satır · 22:50–23:04 UTC (~14 dk)</h4>
+      <div class="stats">
+        <div class="stat bad"><div class="v" data-n="49">0</div><div class="l">hatalı parola</div></div>
+        <div class="stat warn"><div class="v" data-n="75">0</div><div class="l">geçersiz kullanıcı adı</div></div>
+        <div class="stat warn"><div class="v" data-n="9">0</div><div class="l">farklı kaynak adres</div></div>
+        <div class="stat ok"><div class="v" data-n="1">0</div><div class="l">başarılı giriş (anahtarla)</div></div>
+      </div>
+      <div class="bars" id="top">
+        <div class="row"><span>109.160.x.x</span><span>69</span></div><div class="meter" style="width:100%"></div>
+        <div class="row"><span>176.53.x.x</span><span>11</span></div><div class="meter" style="width:16%"></div>
+        <div class="row"><span>193.46.x.x</span><span>5</span></div><div class="meter" style="width:7%"></div>
+      </div>
+    </div>
+    <div class="ans hide" id="ans">Kayıtta <code>Failed password</code> satırları var: sunucuda parola ile giriş açık. Öneri: <code>PasswordAuthentication no</code> ve <code>fail2ban</code>.</div>
+  </div>
+</div>
+
+<div class="cta hide" id="cta">
+  <img src="logo-text.png" alt="">
+  <h2>VeriTeknik MCP<br><span class="grad">Claude dizininde ve<br>GitHub MCP Registry'de</span></h2>
+  <div class="links">
+    <div class="link"><small>Claude</small>claude.ai/directory/veriteknik</div>
+    <div class="link"><small>GitHub</small>github.com/mcp/com.veriteknik/mcp</div>
+    <div class="link"><small>Kurulum</small>veriteknik.com/docs/mcp</div>
+  </div>
+</div>
+
+<div class="cap" id="cap"></div>
+<div class="foot"><b>Gerçek çağrı:</b> read_server_log (auth), VeriTeknik MCP, 16.10.2026 02:04 TSİ, sunucu test-lab-01. Çıktı birebir görselleştirildi; IP adreslerinin son iki hanesi gizlendi.</div>
+
+<script>
+const Q = "test-lab-01'e son dakikalarda kim girmeye çalıştı?";
+// caption cues [start,end,text]; overwritten by window.CUES when audio timing is known
+window.CUES = window.CUES || [];
+const T = window.TIMING || {typeStart:.6,typeEnd:3.2,tool:3.6,result:6.2,ans:15.0,cta:20.0};
+const $ = id => document.getElementById(id);
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x,0,1),3);
+function show(el,t0,t){const p=ease((t-t0)/.45);el.style.opacity=t<t0?0:p;el.style.transform=`translateY(${(1-p)*24}px)`;}
+window.render = function(t){
+  const n = Math.round(clamp((t-T.typeStart)/(T.typeEnd-T.typeStart),0,1)*Q.length);
+  $('utext').textContent = Q.slice(0,n);
+  $('caret').style.opacity = (t<T.typeEnd+.6 && Math.floor(t*2.5)%2===0)?1:0;
+  show($('tool'),T.tool,t);
+  const done = t>=T.result;
+  $('spin').className = done?'done':'spin'; $('spin').textContent = done?'✓':'';
+  if(!done) $('spin').style.transform=`rotate(${t*360}deg)`; else $('spin').style.transform='';
+  show($('res'),T.result,t);
+  document.querySelectorAll('.stat .v').forEach((v,i)=>{const k=ease((t-T.result-.3-i*.15)/1.2);v.textContent=Math.round(+v.dataset.n*clamp(k,0,1));});
+  document.querySelectorAll('.meter').forEach((m,i)=>{const k=ease((t-T.result-1.2-i*.2)/.8);m.style.transform=`scaleX(${k})`;m.style.transformOrigin='left';});
+  show($('ans'),T.ans,t);
+  const c=$('cta'); const cp=ease((t-T.cta)/.6); c.style.opacity=t<T.cta?0:cp; $('win').style.opacity=1-cp;
+  const cue = window.CUES.find(q=>t>=q[0]&&t<q[1]);
+  $('cap').innerHTML = cue?`<span>${cue[2]}</span>`:'';
+};
+render(0);
+</script>
+</body>
+</html>
