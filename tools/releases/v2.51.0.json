@@ -1,0 +1,62 @@
+{
+ "version": "2.51.0",
+ "cards": [
+  {
+   "icon": "🔁",
+   "title": "Dönem başına tek tahsilat",
+   "sub": "Kart iki kez çekilmez"
+  },
+  {
+   "icon": "⏳",
+   "title": "Zaman aşımında doğrulama",
+   "sub": "Ekibimiz kontrol ediyor"
+  },
+  {
+   "icon": "📌",
+   "title": "Adil askı kuralı",
+   "sub": "Askı süresi faturalanmaz"
+  },
+  {
+   "icon": "🔑",
+   "title": "SSH anahtarı anında",
+   "sub": "Çalışan sunuculara işleniyor"
+  },
+  {
+   "icon": "🔐",
+   "title": "2FA sıfırlama gerekçeli",
+   "sub": "Yalnız yetkili personel"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli bir yayında.",
+   "caption": "v2.51.0 yayında"
+  },
+  {
+   "spoken": "Bir yenileme dönemi artık tek kez tahsil ediliyor.",
+   "caption": "Bir yenileme dönemi artık tek kez tahsil ediliyor."
+  },
+  {
+   "spoken": "Banka cevap vermezse çekim başarısız sayılmıyor.",
+   "caption": "Banka cevap vermezse çekim başarısız sayılmıyor."
+  },
+  {
+   "spoken": "Askıda geçen süre faturalanmıyor.",
+   "caption": "Askıda geçen süre faturalanmıyor."
+  },
+  {
+   "spoken": "Es es haş anahtarınız çalışan sunuculara anında işleniyor.",
+   "caption": "SSH anahtarınız çalışan sunuculara anında işleniyor."
+  },
+  {
+   "spoken": "İki adımlı doğrulama sıfırlama gerekçeyle yapılıyor.",
+   "caption": "İki adımlı doğrulama sıfırlama gerekçeyle yapılıyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6abc70e628074da804bc5d70",
+ "spokenText": "VeriTeknik sürüm iki nokta elli bir yayında. Bir yenileme dönemi artık tek kez tahsil ediliyor. Banka cevap vermezse çekim başarısız sayılmıyor. Askıda geçen süre faturalanmıyor. Es es haş anahtarınız çalışan sunuculara anında işleniyor. İki adımlı doğrulama sıfırlama gerekçeyle yapılıyor. Tüm yenilikler panelinizde."
+}

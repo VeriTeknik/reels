@@ -1,0 +1,62 @@
+{
+ "version": "2.52.0",
+ "cards": [
+  {
+   "icon": "💳",
+   "title": "3D Secure sonrası netlik",
+   "sub": "\"Ödemeniz doğrulanıyor\", çift tahsilat yok"
+  },
+  {
+   "icon": "🧾",
+   "title": "Tahsilat = fatura toplamı",
+   "sub": "Sözleşme yenilemesinde"
+  },
+  {
+   "icon": "🔐",
+   "title": "Konsol parolası panelde",
+   "sub": "Sohbette görünmüyor"
+  },
+  {
+   "icon": "▶️",
+   "title": "Askıdan dönüşte çift fatura yok",
+   "sub": "Faturalanmış gün tekrar faturalanmaz"
+  },
+  {
+   "icon": "🪟",
+   "title": "Uygulama adıyla görünüm",
+   "sub": "Tek tık kurulumlar panelde"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli iki yayında.",
+   "caption": "v2.52.0 yayında"
+  },
+  {
+   "spoken": "Banka suskunsa artık reddedildi değil, doğrulanıyor diyoruz.",
+   "caption": "Banka suskunsa artık \"reddedildi\" değil, \"doğrulanıyor\" diyoruz."
+  },
+  {
+   "spoken": "Sözleşme yenilemesinde çekilen tutar fatura toplamıyla aynı.",
+   "caption": "Sözleşme yenilemesinde çekilen tutar fatura toplamıyla aynı."
+  },
+  {
+   "spoken": "Konsol parolası sohbete değil, Konsol sekmesine düşüyor.",
+   "caption": "Konsol parolası sohbete değil, Konsol sekmesine düşüyor."
+  },
+  {
+   "spoken": "Askıdan dönüşte faturalanmış günler yeniden faturalanmıyor.",
+   "caption": "Askıdan dönüşte faturalanmış günler yeniden faturalanmıyor."
+  },
+  {
+   "spoken": "Tek tık kurulan sunucu, uygulamanın adıyla görünüyor.",
+   "caption": "Tek tık kurulan sunucu, uygulamanın adıyla görünüyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6abfedf8a82b64098f3eb0e1",
+ "spokenText": "VeriTeknik sürüm iki nokta elli iki yayında. Banka suskunsa artık reddedildi değil, doğrulanıyor diyoruz. Sözleşme yenilemesinde çekilen tutar fatura toplamıyla aynı. Konsol parolası sohbete değil, Konsol sekmesine düşüyor. Askıdan dönüşte faturalanmış günler yeniden faturalanmıyor. Tek tık kurulan sunucu, uygulamanın adıyla görünüyor. Tüm yenilikler panelinizde."
+}

@@ -1,0 +1,62 @@
+{
+ "version": "2.56.0",
+ "cards": [
+  {
+   "icon": "💬",
+   "title": "Telefonda ~1 sn yanıt",
+   "sub": "Önceden ~24 sn"
+  },
+  {
+   "icon": "🔐",
+   "title": "Tek kullanımlık root parolası",
+   "sub": "180 dk geçerli güvenli bağlantı"
+  },
+  {
+   "icon": "🧾",
+   "title": "Fatura PDF indirme",
+   "sub": "e-Fatura ve e-Arşiv, Paraşüt'ten"
+  },
+  {
+   "icon": "🌐",
+   "title": "DNS değerleri korunuyor",
+   "sub": "Ekleme mevcut değeri silmiyor"
+  },
+  {
+   "icon": "🔄",
+   "title": "Kesintisiz güncelleme",
+   "sub": "Süren işler bitene kadar beklenir"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli altı yayında.",
+   "caption": "v2.56.0 yayında"
+  },
+  {
+   "spoken": "Morfius telefonda yaklaşık yirmi dört saniye yerine bir saniyede yanıtlıyor.",
+   "caption": "Morpheus telefonda yaklaşık 24 saniye yerine 1 saniyede yanıtlıyor."
+  },
+  {
+   "spoken": "Rut parolanız tek kullanımlık, güvenli bir bağlantıyla geliyor.",
+   "caption": "Root parolanız tek kullanımlık, güvenli bir bağlantıyla geliyor."
+  },
+  {
+   "spoken": "Resmî faturanızı pe de ef olarak indirebiliyorsunuz.",
+   "caption": "Resmî faturanızı PDF olarak indirebiliyorsunuz."
+  },
+  {
+   "spoken": "De en es kaydına değer eklemek mevcut değerleri silmiyor.",
+   "caption": "DNS kaydına değer eklemek mevcut değerleri silmiyor."
+  },
+  {
+   "spoken": "Güncellemede süren işler bitene kadar bekleniyor.",
+   "caption": "Güncellemede süren işler bitene kadar bekleniyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6ad11b3f180e27ff0b0853d6",
+ "spokenText": "VeriTeknik sürüm iki nokta elli altı yayında. Morfius telefonda yaklaşık yirmi dört saniye yerine bir saniyede yanıtlıyor. Rut parolanız tek kullanımlık, güvenli bir bağlantıyla geliyor. Resmî faturanızı pe de ef olarak indirebiliyorsunuz. De en es kaydına değer eklemek mevcut değerleri silmiyor. Güncellemede süren işler bitene kadar bekleniyor. Tüm yenilikler panelinizde."
+}

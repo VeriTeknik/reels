@@ -1,0 +1,62 @@
+{
+ "version": "2.57.0",
+ "cards": [
+  {
+   "icon": "📝",
+   "title": "Ek protokol panelden",
+   "sub": "Sözleşme değişikliği panelde imzalanır"
+  },
+  {
+   "icon": "💳",
+   "title": "Promosyon nakitten ayrı",
+   "sub": "Tamamı promosyonla ödenene fatura yok"
+  },
+  {
+   "icon": "💬",
+   "title": "Doğru sohbet ücreti",
+   "sub": "Yanıt veren modele göre hesaplanır"
+  },
+  {
+   "icon": "⚡",
+   "title": "Yedek model ~6 sn'de",
+   "sub": "Evren yanıt vermezse devreye girer"
+  },
+  {
+   "icon": "✉️",
+   "title": "Önce e-posta onayı",
+   "sub": "Girişsiz toplantı taleplerinde"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli yedi yayında.",
+   "caption": "v2.57.0 yayında"
+  },
+  {
+   "spoken": "Sözleşme değişiklikleriniz panelden ek protokolle imzalanıyor.",
+   "caption": "Sözleşme değişiklikleriniz panelden ek protokolle imzalanıyor."
+  },
+  {
+   "spoken": "Promosyon krediniz nakit cüzdandan ayrıldı.",
+   "caption": "Promosyon krediniz nakit cüzdandan ayrıldı."
+  },
+  {
+   "spoken": "Sohbet kullanımı, gerçekten yanıt veren modele göre hesaplanıyor.",
+   "caption": "Sohbet kullanımı, gerçekten yanıt veren modele göre hesaplanıyor."
+  },
+  {
+   "spoken": "Evren yanıt vermezse yedek model yaklaşık altı saniyede devrede.",
+   "caption": "Evren yanıt vermezse yedek model yaklaşık 6 saniyede devrede."
+  },
+  {
+   "spoken": "Girişsiz toplantı taleplerinde önce e-posta onayı geliyor.",
+   "caption": "Girişsiz toplantı taleplerinde önce e-posta onayı geliyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6ad11b41f06f0ba716771af2",
+ "spokenText": "VeriTeknik sürüm iki nokta elli yedi yayında. Sözleşme değişiklikleriniz panelden ek protokolle imzalanıyor. Promosyon krediniz nakit cüzdandan ayrıldı. Sohbet kullanımı, gerçekten yanıt veren modele göre hesaplanıyor. Evren yanıt vermezse yedek model yaklaşık altı saniyede devrede. Girişsiz toplantı taleplerinde önce e-posta onayı geliyor. Tüm yenilikler panelinizde."
+}

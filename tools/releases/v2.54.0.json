@@ -1,0 +1,62 @@
+{
+ "version": "2.54.0",
+ "cards": [
+  {
+   "icon": "📊",
+   "title": "Kullanım geçmişi CSV",
+   "sub": "İşlemci, bellek, disk, ağ"
+  },
+  {
+   "icon": "💳",
+   "title": "Promosyonlar geri yüklendi",
+   "sub": "Yükleme ve harcamalar korundu"
+  },
+  {
+   "icon": "💱",
+   "title": "Döviz faturası doğru kurla",
+   "sub": "Kendi para biriminde kaydedilir"
+  },
+  {
+   "icon": "🤝",
+   "title": "Bağlı Uygulamalar",
+   "sub": "İlk bağlantıda takılmıyor"
+  },
+  {
+   "icon": "🔐",
+   "title": "Erişim güvenliği",
+   "sub": "Eski oturumlar temizleniyor"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli dört yayında.",
+   "caption": "v2.54.0 yayında"
+  },
+  {
+   "spoken": "Sunucu kullanım geçmişi artık se es ve olarak iniyor.",
+   "caption": "Sunucu kullanım geçmişi artık CSV olarak iniyor."
+  },
+  {
+   "spoken": "Yanlışlıkla düşen promosyonlar eksiksiz geri yüklendi.",
+   "caption": "Yanlışlıkla düşen promosyonlar eksiksiz geri yüklendi."
+  },
+  {
+   "spoken": "Döviz faturası kendi para biriminde, doğru kurla kaydediliyor.",
+   "caption": "Döviz faturası kendi para biriminde, doğru kurla kaydediliyor."
+  },
+  {
+   "spoken": "Bağlı Uygulamalar ilk girişte takılmıyor.",
+   "caption": "Bağlı Uygulamalar ilk girişte takılmıyor."
+  },
+  {
+   "spoken": "Erişim güvenliği güçlendi, eski oturumlar temizleniyor.",
+   "caption": "Erişim güvenliği güçlendi, eski oturumlar temizleniyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6ac192b65829d2489afc9b69",
+ "spokenText": "VeriTeknik sürüm iki nokta elli dört yayında. Sunucu kullanım geçmişi artık se es ve olarak iniyor. Yanlışlıkla düşen promosyonlar eksiksiz geri yüklendi. Döviz faturası kendi para biriminde, doğru kurla kaydediliyor. Bağlı Uygulamalar ilk girişte takılmıyor. Erişim güvenliği güçlendi, eski oturumlar temizleniyor. Tüm yenilikler panelinizde."
+}

@@ -1,0 +1,62 @@
+{
+ "version": "2.53.0",
+ "cards": [
+  {
+   "icon": "🔑",
+   "title": "Yönetici erişimi yetkiliye",
+   "sub": "Sunucu yetkisi üyeliğe bağlı"
+  },
+  {
+   "icon": "💳",
+   "title": "Ödeme izinleri ayrıldı",
+   "sub": "Ödeme başlatma ve kart kaydetme ayrı"
+  },
+  {
+   "icon": "🚫",
+   "title": "Kapalı hesap kapalı kalır",
+   "sub": "Google girişiyle geri dönüş yok"
+  },
+  {
+   "icon": "🧠",
+   "title": "Morpheus hafızası firmanızda",
+   "sub": "Firma sınırını aşmıyor"
+  },
+  {
+   "icon": "🛡️",
+   "title": "İç ağ korunuyor",
+   "sub": "Dış adres incelemeleri iç ağa gidemez"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli üç yayında.",
+   "caption": "v2.53.0 yayında"
+  },
+  {
+   "spoken": "Sunucuya yönetici erişimi yalnız yetkili üyede.",
+   "caption": "Sunucuya yönetici erişimi yalnız yetkili üyede."
+  },
+  {
+   "spoken": "Ödeme başlatma ve kart kaydetme ayrı izinler istiyor.",
+   "caption": "Ödeme başlatma ve kart kaydetme ayrı izinler istiyor."
+  },
+  {
+   "spoken": "Kapatılan personel hesabı Google ile geri dönemiyor.",
+   "caption": "Kapatılan personel hesabı Google ile geri dönemiyor."
+  },
+  {
+   "spoken": "Morfius hafızası firmanızın sınırında kalıyor.",
+   "caption": "Morpheus hafızası firmanızın sınırında kalıyor."
+  },
+  {
+   "spoken": "Dış adres inceleyen hizmetler iç ağa yönlendirilemiyor.",
+   "caption": "Dış adres inceleyen hizmetler iç ağa yönlendirilemiyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6abfee00a82b64098f3eb1cd",
+ "spokenText": "VeriTeknik sürüm iki nokta elli üç yayında. Sunucuya yönetici erişimi yalnız yetkili üyede. Ödeme başlatma ve kart kaydetme ayrı izinler istiyor. Kapatılan personel hesabı Google ile geri dönemiyor. Morfius hafızası firmanızın sınırında kalıyor. Dış adres inceleyen hizmetler iç ağa yönlendirilemiyor. Tüm yenilikler panelinizde."
+}

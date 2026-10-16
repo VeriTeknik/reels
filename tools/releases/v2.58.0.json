@@ -1,0 +1,62 @@
+{
+ "version": "2.58.0",
+ "cards": [
+  {
+   "icon": "🤝",
+   "title": "Claude bağlayıcı dizininde",
+   "sub": "İzinleri siz seçiyorsunuz"
+  },
+  {
+   "icon": "🔐",
+   "title": "Önce gör, sonra onayla",
+   "sub": "15 dk geçerli, tek kullanımlık onay"
+  },
+  {
+   "icon": "🗑️",
+   "title": "Silme için panel onayı",
+   "sub": "Kalıcı sunucular korunuyor"
+  },
+  {
+   "icon": "💳",
+   "title": "Promosyon kredisi ayrı satırda",
+   "sub": "Faturalama ekranında görünür"
+  },
+  {
+   "icon": "🖥️",
+   "title": "Sohbetten VPS siparişi",
+   "sub": "İşlemci, bellek, disk sizin seçiminiz"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli sekiz yayında.",
+   "caption": "v2.58.0 yayında"
+  },
+  {
+   "spoken": "VeriTeknik artık Klod bağlayıcı dizininde, izinleri siz seçiyorsunuz.",
+   "caption": "VeriTeknik artık Claude bağlayıcı dizininde, izinleri siz seçiyorsunuz."
+  },
+  {
+   "spoken": "Yönetici komutlarını önce görüp sonra onaylıyorsunuz.",
+   "caption": "Yönetici komutlarını önce görüp sonra onaylıyorsunuz."
+  },
+  {
+   "spoken": "Kalıcı bir sunucuyu silmek panel onayı istiyor.",
+   "caption": "Kalıcı bir sunucuyu silmek panel onayı istiyor."
+  },
+  {
+   "spoken": "Promosyon krediniz faturalama ekranında ayrı satırda.",
+   "caption": "Promosyon krediniz faturalama ekranında ayrı satırda."
+  },
+  {
+   "spoken": "Morfius, seçtiğiniz işlemci, bellek ve diskle sunucu sipariş edebiliyor.",
+   "caption": "Morpheus, seçtiğiniz işlemci, bellek ve diskle sunucu sipariş edebiliyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "postId": "6ad11b4a180e27ff0b0854d0",
+ "spokenText": "VeriTeknik sürüm iki nokta elli sekiz yayında. VeriTeknik artık Klod bağlayıcı dizininde, izinleri siz seçiyorsunuz. Yönetici komutlarını önce görüp sonra onaylıyorsunuz. Kalıcı bir sunucuyu silmek panel onayı istiyor. Promosyon krediniz faturalama ekranında ayrı satırda. Morfius, seçtiğiniz işlemci, bellek ve diskle sunucu sipariş edebiliyor. Tüm yenilikler panelinizde."
+}
