@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/@fontsource/inter/600.css">
+<link rel="stylesheet" href="node_modules/@fontsource/inter/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/jetbrains-mono/500.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0a0b1a;font-family:Inter,sans-serif;color:#eef0fa}
+.bg{position:absolute;inset:0;background:
+ radial-gradient(900px 700px at 50% 30%,#1d1650 0%,transparent 70%),
+ linear-gradient(#ffffff08 1px,transparent 1px) 0 0/60px 60px,
+ linear-gradient(90deg,#ffffff08 1px,transparent 1px) 0 0/60px 60px}
+.scene{position:absolute;left:60px;right:140px;top:170px;height:930px;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hook{font-size:92px;font-weight:700;line-height:1.08;letter-spacing:-.01em}
+.grad{background:linear-gradient(90deg,#7fb2ff,#7c5cff,#e05cff);-webkit-background-clip:text;color:transparent}
+.page{width:820px;height:760px;background:#efe6cc;border-radius:10px;box-shadow:0 30px 80px #0008;color:#2b2318;position:relative;transform:rotate(-2deg);padding:60px 56px;text-align:left;
+ background-image:linear-gradient(#c9b98f 2px,transparent 2px);background-size:100% 64px;background-position:0 40px}
+.page .row{font-family:'JetBrains Mono';font-size:30px;height:64px;line-height:64px;white-space:nowrap}
+.tape{position:absolute;left:250px;top:300px;width:330px;height:150px;background:#fffbe8aa;transform:rotate(-6deg);border-radius:4px}
+.moth{position:absolute;left:300px;top:290px}
+.hand{font-family:'JetBrains Mono';color:#7a1f14;font-size:31px}
+.card{width:820px;border-radius:30px;background:#141533;border:2px solid #2c2a66;padding:60px}
+.year{font-size:170px;font-weight:700;line-height:1}
+.lab{font-size:44px;font-weight:600;color:#aab0cc;margin-top:18px;line-height:1.3}
+.cta img{height:96px}
+.cta .l{font-family:'JetBrains Mono';font-size:46px;border:2px solid #34307a;border-radius:20px;padding:26px 44px;background:#0f1124;margin-top:46px}
+.cap{position:absolute;left:60px;right:140px;top:1150px;text-align:center;font-size:50px;font-weight:700;line-height:1.28;text-shadow:0 3px 14px #000}
+.cap span{background:#0a0b1acc;padding:6px 16px;border-radius:14px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.guve{position:absolute;left:40px;top:1290px;width:300px;height:300px}
+.name{position:absolute;left:330px;top:1440px;font-family:'JetBrains Mono';font-size:28px;color:#8f86ff}
+.foot{position:absolute;left:60px;right:140px;top:1060px;text-align:center;font-family:'JetBrains Mono';font-size:24px;color:#7d84a3}
+</style></head><body>
+<div class="bg"></div>
+
+<div class="scene" id="s0"><div class="hook">"Bug" kelimesini<br><span class="grad">Grace Hopper</span><br>bulmadı.</div></div>
+
+<div class="scene" id="s1">
+ <div class="page">
+  <div class="row">9/9/1947  Mark II</div>
+  <div class="row"> </div>
+  <div class="row">1545  Relay #70 Panel F</div>
+  <div class="row">      (moth) in relay.</div>
+  <div class="row"> </div>
+  <div class="row"> </div>
+  <div class="row hand" id="logline" style="opacity:0">First actual case of bug being found.</div>
+  <div class="tape"></div>
+  <svg class="moth" width="230" height="170" viewBox="0 0 230 170"><g fill="#8a6f4e" stroke="#4a3a28" stroke-width="4"><path d="M115 80 C80 20 15 20 12 60 C10 100 60 105 110 95Z"/><path d="M115 80 C150 20 215 20 218 60 C220 100 170 105 120 95Z"/><path d="M112 98 C80 110 55 145 75 155 C95 165 110 125 115 105Z"/><path d="M118 98 C150 110 175 145 155 155 C135 165 120 125 115 105Z"/></g><ellipse cx="115" cy="95" rx="12" ry="40" fill="#5b4632"/></svg>
+ </div>
+</div>
+
+<div class="scene" id="s2"><div class="card"><div class="year grad">1878</div><div class="lab">Edison bir mektubunda küçük arızalara zaten <b style="color:#fff">"bug"</b> diyor.</div></div></div>
+
+<div class="scene" id="s3"><div class="hook" style="font-size:84px">İlk bug değil,<br><span class="grad">en ünlüsü.</span></div></div>
+
+<div class="scene cta" id="s4"><img src="logo-text.png" alt=""><div class="hook" style="font-size:70px;margin-top:40px">Bugünün bug'larını<br><span class="grad">izleme ve alarmlar</span><br>yakalıyor.</div><div class="l">veriteknik.com</div></div>
+
+<div class="foot" id="foot">Temsili çizim · Kaynak: Smithsonian, Computing History</div>
+<div class="cap" id="cap"></div>
+
+<svg class="guve" id="guve" viewBox="0 0 440 440">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fb2ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#e05cff"/></linearGradient></defs>
+ <g id="wings" fill="url(#g)" style="transform-origin:220px 240px">
+  <ellipse cx="125" cy="215" rx="95" ry="75" transform="rotate(-20 125 215)"/>
+  <ellipse cx="315" cy="215" rx="95" ry="75" transform="rotate(20 315 215)"/>
+  <ellipse cx="150" cy="300" rx="55" ry="42" transform="rotate(25 150 300)" opacity=".85"/>
+  <ellipse cx="290" cy="300" rx="55" ry="42" transform="rotate(-25 290 300)" opacity=".85"/>
+ </g>
+ <ellipse cx="220" cy="250" rx="62" ry="80" fill="#f3f1ff"/>
+ <g id="eyes" fill="#1b1838"><ellipse cx="196" cy="235" rx="15" ry="20"/><ellipse cx="244" cy="235" rx="15" ry="20"/></g>
+ <g fill="#fff"><circle cx="201" cy="228" r="6"/><circle cx="249" cy="228" r="6"/></g>
+ <ellipse id="mouth" cx="220" cy="275" rx="14" ry="3" fill="#1b1838"/>
+ <g fill="#ffb3d9" opacity=".7"><ellipse cx="180" cy="262" rx="10" ry="6"/><ellipse cx="260" cy="262" rx="10" ry="6"/></g>
+ <g stroke="#f3f1ff" stroke-width="6" fill="none" stroke-linecap="round"><path d="M200 175 C190 140 175 125 160 120"/><path d="M240 175 C250 140 265 125 280 120"/></g>
+ <g fill="#7fb2ff"><circle cx="158" cy="119" r="11"/><circle cx="282" cy="119" r="11"/></g>
+</svg>
+<div class="name">Güve</div>
+
+<script>
+const D = window.DATA; const $=id=>document.getElementById(id);
+const cl=(x,a,b)=>Math.max(a,Math.min(b,x)), ease=x=>1-Math.pow(1-cl(x,0,1),3);
+window.render=function(t){
+  D.scenes.forEach(([id,a,b])=>{const el=$(id);const i=ease((t-a)/.35),o=ease((b-t)/.3);el.style.opacity=t<a||t>b?0:Math.min(i,o);el.style.transform=`translateY(${(1-i)*30}px)`});
+  $('logline').style.opacity=ease((t-D.logAt)/.5);
+  $('foot').style.opacity=(t>D.scenes[1][1]&&t<D.scenes[2][2])?.9:0;
+  const cue=D.cues.find(c=>t>=c[0]&&t<c[1]); $('cap').innerHTML=cue?`<span>${cue[2]}</span>`:'';
+  const e=D.env[Math.min(D.env.length-1,Math.floor(t*30))]||0;
+  $('mouth').setAttribute('ry',3+e*16); $('mouth').setAttribute('rx',14-e*3);
+  $('wings').style.transform=`scaleX(${1-0.12*Math.abs(Math.sin(t*9))})`;
+  $('guve').style.transform=`translateY(${Math.sin(t*2.2)*10}px)`;
+  const blink=(t%3.7)<.12; $('eyes').style.transform=blink?'scaleY(.1)':''; $('eyes').style.transformOrigin='220px 235px';
+};
+render(0);
+</script></body></html>
