@@ -1,0 +1,53 @@
+{
+ "postId": "6abc70daf3db08ac92705688",
+ "version": "2.46.0",
+ "cards": [
+  {
+   "icon": "🔎",
+   "title": "Claude Desktop sunucunuzda",
+   "sub": "Salt okunur: sağlık, log, yedek"
+  },
+  {
+   "icon": "🛡️",
+   "title": "Sırlar maskeleniyor",
+   "sub": ".env ve özel anahtarlar açılmaz"
+  },
+  {
+   "icon": "✋",
+   "title": "Onay kartı ne yapılacağını söyler",
+   "sub": "Yalnız onaylanan sunucu için"
+  },
+  {
+   "icon": "📧",
+   "title": "Kurumsal e-posta siparişi",
+   "sub": "Alan adı ve kullanıcı sayısıyla"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk altı yayında.",
+   "caption": "v2.46.0 yayında"
+  },
+  {
+   "spoken": "Klod Desktop artık sunucunuzun içine salt okunur bakabiliyor.",
+   "caption": "Claude Desktop artık sunucunuzun içine salt okunur bakabiliyor."
+  },
+  {
+   "spoken": "Özel anahtarlar ve parolalar açılmıyor, sırlar maskeleniyor.",
+   "caption": "Özel anahtarlar ve parolalar açılmıyor, sırlar maskeleniyor."
+  },
+  {
+   "spoken": "Onay kartı artık ne yapılacağını yazıyor.",
+   "caption": "Onay kartı artık ne yapılacağını yazıyor."
+  },
+  {
+   "spoken": "Kurumsal e-posta siparişi panelde, birkaç tıkla.",
+   "caption": "Kurumsal e-posta siparişi panelde, birkaç tıkla."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk altı yayında. Klod Desktop artık sunucunuzun içine salt okunur bakabiliyor. Özel anahtarlar ve parolalar açılmıyor, sırlar maskeleniyor. Onay kartı artık ne yapılacağını yazıyor. Kurumsal e-posta siparişi panelde, birkaç tıkla. Tüm yenilikler panelinizde."
+}

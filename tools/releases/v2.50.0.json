@@ -1,0 +1,53 @@
+{
+ "postId": "6abc70d45df9296bd8db9ff1",
+ "version": "2.50.0",
+ "cards": [
+  {
+   "icon": "⚡",
+   "title": "Site hızlandı",
+   "sub": "Mobil hız skoru 58'den 94'e"
+  },
+  {
+   "icon": "🌍",
+   "title": "İngilizce tarayıcıya İngilizce",
+   "sub": "Giriş, panel ve e-postalar"
+  },
+  {
+   "icon": "💱",
+   "title": "Para birimi erken kilitlenmez",
+   "sub": "Ülkeniz sorulmadan kilit yok"
+  },
+  {
+   "icon": "🔗",
+   "title": "Ödeme doğru faturada",
+   "sub": "Kartla yenilenen sözleşmelerde"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta elli yayında.",
+   "caption": "v2.50.0 yayında"
+  },
+  {
+   "spoken": "Sitenin mobil hız skoru elli sekizden doksan dörde çıktı.",
+   "caption": "Sitenin mobil hız skoru 58'den 94'e çıktı."
+  },
+  {
+   "spoken": "Türkçe olmayan tarayıcıda giriş, panel ve e-postalar İngilizce.",
+   "caption": "Türkçe olmayan tarayıcıda giriş, panel ve e-postalar İngilizce."
+  },
+  {
+   "spoken": "Ülkeniz sorulmadan para biriminiz kilitlenmiyor.",
+   "caption": "Ülkeniz sorulmadan para biriminiz kilitlenmiyor."
+  },
+  {
+   "spoken": "Kartla yenilenen sözleşmenin ödemesi doğru faturaya bağlanıyor.",
+   "caption": "Kartla yenilenen sözleşmenin ödemesi doğru faturaya bağlanıyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta elli yayında. Sitenin mobil hız skoru elli sekizden doksan dörde çıktı. Türkçe olmayan tarayıcıda giriş, panel ve e-postalar İngilizce. Ülkeniz sorulmadan para biriminiz kilitlenmiyor. Kartla yenilenen sözleşmenin ödemesi doğru faturaya bağlanıyor. Tüm yenilikler panelinizde."
+}

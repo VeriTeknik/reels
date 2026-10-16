@@ -1,0 +1,53 @@
+{
+ "postId": "6abc70d85df9296bd8dba045",
+ "version": "2.49.0",
+ "cards": [
+  {
+   "icon": "🌍",
+   "title": "Panel gerçekten İngilizce",
+   "sub": "Hesap diliniz İngilizceyse"
+  },
+  {
+   "icon": "🔑",
+   "title": "Harici DNS ile kurumsal e-posta",
+   "sub": "TXT kaydıyla sahiplik kanıtı"
+  },
+  {
+   "icon": "🧾",
+   "title": ".ae için ödeme öncesi onay",
+   "sub": "Registry politikası"
+  },
+  {
+   "icon": "⚡",
+   "title": "Yazışmalar sayfası hafifledi",
+   "sub": "İlk yük 363 KB'den 22 KB'ye"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk dokuz yayında.",
+   "caption": "v2.49.0 yayında"
+  },
+  {
+   "spoken": "Hesabınızın dili İngilizceyse panel de gerçekten İngilizce.",
+   "caption": "Hesabınızın dili İngilizceyse panel de gerçekten İngilizce."
+  },
+  {
+   "spoken": "De en es'i başka yerdeki alan adıyla da kurumsal e-posta kurulabiliyor.",
+   "caption": "DNS'i başka yerdeki alan adıyla da kurumsal e-posta kurulabiliyor."
+  },
+  {
+   "spoken": "Nokta a e gibi uzantılarda rejistri politikası ödemeden önce onaylanıyor.",
+   "caption": ".ae gibi uzantılarda registry politikası ödemeden önce onaylanıyor."
+  },
+  {
+   "spoken": "Yazışmalar sayfasının ilk yükü yirmi iki kilobayta indi.",
+   "caption": "Yazışmalar sayfasının ilk yükü 22 KB'ye indi."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk dokuz yayında. Hesabınızın dili İngilizceyse panel de gerçekten İngilizce. De en es'i başka yerdeki alan adıyla da kurumsal e-posta kurulabiliyor. Nokta a e gibi uzantılarda rejistri politikası ödemeden önce onaylanıyor. Yazışmalar sayfasının ilk yükü yirmi iki kilobayta indi. Tüm yenilikler panelinizde."
+}

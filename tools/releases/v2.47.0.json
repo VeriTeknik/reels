@@ -1,0 +1,53 @@
+{
+ "postId": "6abc70daa1ba5ce146e4d622",
+ "version": "2.47.0",
+ "cards": [
+  {
+   "icon": "🛠️",
+   "title": "Sıralı yönetici komutu",
+   "sub": "İlk hatada durur, ayrı onay ister"
+  },
+  {
+   "icon": "🌐",
+   "title": "Bakiyeden alan adı",
+   "sub": "VeriTeknik DNS'ine hazır bağlı"
+  },
+  {
+   "icon": "🔑",
+   "title": "Ortak kurulum anahtarı silinir",
+   "sub": "Sayarak doğrulanıyor"
+  },
+  {
+   "icon": "🏷️",
+   "title": "Çok yıllık alan adı fiyatı",
+   "sub": "Promosyon yalnız ilk yıla"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk yedi yayında.",
+   "caption": "v2.47.0 yayında"
+  },
+  {
+   "spoken": "Bağlı uygulamalar yönetici komutunu sıralı ve ayrı onayla çalıştırıyor.",
+   "caption": "Bağlı uygulamalar yönetici komutunu sıralı ve ayrı onayla çalıştırıyor."
+  },
+  {
+   "spoken": "Ajan bakiyeden alan adı kaydedebiliyor.",
+   "caption": "Ajan bakiyeden alan adı kaydedebiliyor."
+  },
+  {
+   "spoken": "Ortak kurulum anahtarı sunuculardan gerçekten siliniyor.",
+   "caption": "Ortak kurulum anahtarı sunuculardan gerçekten siliniyor."
+  },
+  {
+   "spoken": "Çok yıllık alan adında promosyon yalnız ilk yıla uygulanıyor.",
+   "caption": "Çok yıllık alan adında promosyon yalnız ilk yıla uygulanıyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk yedi yayında. Bağlı uygulamalar yönetici komutunu sıralı ve ayrı onayla çalıştırıyor. Ajan bakiyeden alan adı kaydedebiliyor. Ortak kurulum anahtarı sunuculardan gerçekten siliniyor. Çok yıllık alan adında promosyon yalnız ilk yıla uygulanıyor. Tüm yenilikler panelinizde."
+}

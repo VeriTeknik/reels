@@ -1,0 +1,53 @@
+{
+ "postId": "6a9c28d50ca93dff239b7905",
+ "version": "2.43.0",
+ "cards": [
+  {
+   "icon": "🇹🇷",
+   "title": ".tr alan adı kaydı",
+   "sub": "Kimlik, il ve adres soruluyor"
+  },
+  {
+   "icon": "🌐",
+   "title": "IPv4 ekle, çıkar",
+   "sub": "Fark kıst hesaplanıyor"
+  },
+  {
+   "icon": "🎟️",
+   "title": "Alan adında indirim kodu",
+   "sub": "Siparişte geçerli"
+  },
+  {
+   "icon": "🔁",
+   "title": "Yedek geri yükleme kanıtı",
+   "sub": "Her pazar"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk üç yayında.",
+   "caption": "v2.43.0 yayında"
+  },
+  {
+   "spoken": "Nokta te re alan adları artık gerçekten kaydedilebiliyor.",
+   "caption": ".tr alan adları artık gerçekten kaydedilebiliyor."
+  },
+  {
+   "spoken": "Sunucunuza ay pi ve dört adresi ekleyip çıkarabiliyorsunuz.",
+   "caption": "Sunucunuza IPv4 adresi ekleyip çıkarabiliyorsunuz."
+  },
+  {
+   "spoken": "İndirim kodunuz alan adı siparişinde de geçiyor.",
+   "caption": "İndirim kodunuz alan adı siparişinde de geçiyor."
+  },
+  {
+   "spoken": "Her pazar yedeğin geri yüklenebildiğini kanıtlıyoruz.",
+   "caption": "Her pazar yedeğin geri yüklenebildiğini kanıtlıyoruz."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk üç yayında. Nokta te re alan adları artık gerçekten kaydedilebiliyor. Sunucunuza ay pi ve dört adresi ekleyip çıkarabiliyorsunuz. İndirim kodunuz alan adı siparişinde de geçiyor. Her pazar yedeğin geri yüklenebildiğini kanıtlıyoruz. Tüm yenilikler panelinizde."
+}

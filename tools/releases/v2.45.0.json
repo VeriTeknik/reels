@@ -1,0 +1,53 @@
+{
+ "postId": "6a9c28d20ca93dff239b78c5",
+ "version": "2.45.0",
+ "cards": [
+  {
+   "icon": "🧰",
+   "title": "Bağlı uygulamalara güvenlik zarfı",
+   "sub": "İzin grubu, aylık limit, 90 gün"
+  },
+  {
+   "icon": "🤖",
+   "title": "Morpheus araçları açıldı",
+   "sub": "Yıkıcı olanlar onayınızla"
+  },
+  {
+   "icon": "🚪",
+   "title": "Arşivlenen hesap giremez",
+   "sub": "Erişim tamamen durur"
+  },
+  {
+   "icon": "🔑",
+   "title": "Yedek 2FA kodu tek sefer",
+   "sub": "Bir kez geçerli"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk beş yayında.",
+   "caption": "v2.45.0 yayında"
+  },
+  {
+   "spoken": "Bağlı uygulamaya izin grubu, aylık sınır ve doksan günlük süre veriyorsunuz.",
+   "caption": "Bağlı uygulamaya izin grubu, aylık sınır ve 90 günlük süre veriyorsunuz."
+  },
+  {
+   "spoken": "Morfius'un yirmi dört aracı bağlı uygulamalara açıldı.",
+   "caption": "Morpheus'un 24 aracı bağlı uygulamalara açıldı."
+  },
+  {
+   "spoken": "Arşivlenen hesabın erişimi tamamen duruyor.",
+   "caption": "Arşivlenen hesabın erişimi tamamen duruyor."
+  },
+  {
+   "spoken": "Yedek doğrulama kodu yalnız bir kez geçiyor.",
+   "caption": "Yedek 2FA kodu yalnız bir kez geçiyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk beş yayında. Bağlı uygulamaya izin grubu, aylık sınır ve doksan günlük süre veriyorsunuz. Morfius'un yirmi dört aracı bağlı uygulamalara açıldı. Arşivlenen hesabın erişimi tamamen duruyor. Yedek doğrulama kodu yalnız bir kez geçiyor. Tüm yenilikler panelinizde."
+}

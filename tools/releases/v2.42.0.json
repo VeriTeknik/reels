@@ -1,0 +1,53 @@
+{
+ "postId": "6a9c28c60ca93dff239b7835",
+ "version": "2.42.0",
+ "cards": [
+  {
+   "icon": "🗓️",
+   "title": "Takvimle fatura",
+   "sub": "Önceki ödemeyi beklemez"
+  },
+  {
+   "icon": "🖥️",
+   "title": "Çift faturalama yok",
+   "sub": "Aynı sunucu bir kez"
+  },
+  {
+   "icon": "↩️",
+   "title": "Kullanılmayan süre iadesi",
+   "sub": "Personel silse de"
+  },
+  {
+   "icon": "🤝",
+   "title": "Tek tıkla davet",
+   "sub": "Panelde kabul"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk iki yayında.",
+   "caption": "v2.42.0 yayında"
+  },
+  {
+   "spoken": "Faturalar artık takvimle kesiliyor.",
+   "caption": "Faturalar artık takvimle kesiliyor."
+  },
+  {
+   "spoken": "Aynı sunucu iki kez faturalanmıyor.",
+   "caption": "Aynı sunucu iki kez faturalanmıyor."
+  },
+  {
+   "spoken": "Personel bir sunucuyu silse de kullanılmayan süre iade ediliyor.",
+   "caption": "Personel bir sunucuyu silse de kullanılmayan süre iade ediliyor."
+  },
+  {
+   "spoken": "Davetler panelde tek tıkla kabul ediliyor.",
+   "caption": "Davetler panelde tek tıkla kabul ediliyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk iki yayında. Faturalar artık takvimle kesiliyor. Aynı sunucu iki kez faturalanmıyor. Personel bir sunucuyu silse de kullanılmayan süre iade ediliyor. Davetler panelde tek tıkla kabul ediliyor. Tüm yenilikler panelinizde."
+}

@@ -1,0 +1,53 @@
+{
+ "postId": "6a9c28d6f97391de04b6b394",
+ "version": "2.44.0",
+ "cards": [
+  {
+   "icon": "💭",
+   "title": "Düşünce akışı",
+   "sub": "Morpheus canlı gösteriyor"
+  },
+  {
+   "icon": "🖥️",
+   "title": "Morpheus'un bilgisayarı",
+   "sub": "Geri sarılabilir panel"
+  },
+  {
+   "icon": "🔌",
+   "title": "Claude Desktop bağlantısı",
+   "sub": "VeriTeknik hesabınıza"
+  },
+  {
+   "icon": "💳",
+   "title": "Kalan tutar çekiliyor",
+   "sub": "Faturanın tamamı değil"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk dört yayında.",
+   "caption": "v2.44.0 yayında"
+  },
+  {
+   "spoken": "Morfius cevaptan önce düşünüyor ve bunu canlı gösteriyor.",
+   "caption": "Morpheus cevaptan önce düşünüyor ve bunu canlı gösteriyor."
+  },
+  {
+   "spoken": "Sağdaki panel ne yaptığını tek cümleyle söylüyor.",
+   "caption": "Sağdaki panel ne yaptığını tek cümleyle söylüyor."
+  },
+  {
+   "spoken": "Klod Desktop artık VeriTeknik hesabınıza bağlanıyor.",
+   "caption": "Claude Desktop artık VeriTeknik hesabınıza bağlanıyor."
+  },
+  {
+   "spoken": "Kayıtlı karttan faturanın tamamı değil, kalanı çekiliyor.",
+   "caption": "Kayıtlı karttan faturanın tamamı değil, kalanı çekiliyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk dört yayında. Morfius cevaptan önce düşünüyor ve bunu canlı gösteriyor. Sağdaki panel ne yaptığını tek cümleyle söylüyor. Klod Desktop artık VeriTeknik hesabınıza bağlanıyor. Kayıtlı karttan faturanın tamamı değil, kalanı çekiliyor. Tüm yenilikler panelinizde."
+}

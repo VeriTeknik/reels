@@ -1,0 +1,53 @@
+{
+ "postId": "6a78a986b76513f20421797c",
+ "version": "2.41.0",
+ "cards": [
+  {
+   "icon": "📣",
+   "title": "Sürüm notları bizim dilimizde",
+   "sub": "Türkçe ve İngilizce"
+  },
+  {
+   "icon": "🔑",
+   "title": "Tek kullanımlık kimlik bilgisi",
+   "sub": "Bir kez açılır, sonra silinir"
+  },
+  {
+   "icon": "🌐",
+   "title": "DNS kayıtları korunuyor",
+   "sub": "Düzenleme kardeş kaydı silmez"
+  },
+  {
+   "icon": "📡",
+   "title": "Harici alan adında izleme",
+   "sub": "Nerede barındırılırsa barındırılsın"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk bir yayında.",
+   "caption": "v2.41.0 yayında"
+  },
+  {
+   "spoken": "Sürüm notlarını artık Türkçe ve İngilizce biz yazıyoruz.",
+   "caption": "Sürüm notlarını artık Türkçe ve İngilizce biz yazıyoruz."
+  },
+  {
+   "spoken": "Şifreler bir kez açılan kutuda geliyor, sonra siliniyor.",
+   "caption": "Şifreler bir kez açılan kutuda geliyor, sonra siliniyor."
+  },
+  {
+   "spoken": "De en es kaydı düzenlerken diğer değerler silinmiyor.",
+   "caption": "DNS kaydı düzenlerken diğer değerler silinmiyor."
+  },
+  {
+   "spoken": "Alan adınız nerede olursa olsun izlemeyi açabiliyorsunuz.",
+   "caption": "Alan adınız nerede olursa olsun izlemeyi açabiliyorsunuz."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk bir yayında. Sürüm notlarını artık Türkçe ve İngilizce biz yazıyoruz. Şifreler bir kez açılan kutuda geliyor, sonra siliniyor. De en es kaydı düzenlerken diğer değerler silinmiyor. Alan adınız nerede olursa olsun izlemeyi açabiliyorsunuz. Tüm yenilikler panelinizde."
+}

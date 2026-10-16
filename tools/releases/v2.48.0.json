@@ -1,0 +1,53 @@
+{
+ "postId": "6abc70d43b1eb12e6e3fb348",
+ "version": "2.48.0",
+ "cards": [
+  {
+   "icon": "🎛️",
+   "title": "Morpheus'a yetki seviyesi",
+   "sub": "Tam otonomdan yalnız gözleme"
+  },
+  {
+   "icon": "🔐",
+   "title": "Kendi yetkisini yükseltemez",
+   "sub": "Her değişiklik denetim kaydında"
+  },
+  {
+   "icon": "📶",
+   "title": "Bant genişliği aylık kotayla",
+   "sub": "Hayali aşım faturası yok"
+  },
+  {
+   "icon": "💳",
+   "title": "Silinen kart silinir",
+   "sub": "Artık gerçekten"
+  }
+ ],
+ "sentences": [
+  {
+   "spoken": "VeriTeknik sürüm iki nokta kırk sekiz yayında.",
+   "caption": "v2.48.0 yayında"
+  },
+  {
+   "spoken": "Morfius'a yetki seviyesi seçiyorsunuz: tam otonomdan yalnız gözleme.",
+   "caption": "Morpheus'a yetki seviyesi seçiyorsunuz: tam otonomdan yalnız gözleme."
+  },
+  {
+   "spoken": "Yapay zekâ kendi yetkisini yükseltemiyor.",
+   "caption": "Yapay zekâ kendi yetkisini yükseltemiyor."
+  },
+  {
+   "spoken": "Bant genişliği aylık kotayla ölçülüyor.",
+   "caption": "Bant genişliği aylık kotayla ölçülüyor."
+  },
+  {
+   "spoken": "Silinen kart artık gerçekten siliniyor.",
+   "caption": "Silinen kart artık gerçekten siliniyor."
+  },
+  {
+   "spoken": "Tüm yenilikler panelinizde.",
+   "caption": "Tüm yenilikler panelinizde: veriteknik.com"
+  }
+ ],
+ "spokenText": "VeriTeknik sürüm iki nokta kırk sekiz yayında. Morfius'a yetki seviyesi seçiyorsunuz: tam otonomdan yalnız gözleme. Yapay zekâ kendi yetkisini yükseltemiyor. Bant genişliği aylık kotayla ölçülüyor. Silinen kart artık gerçekten siliniyor. Tüm yenilikler panelinizde."
+}
