@@ -1,10 +1,11 @@
 # Haftalık reel hattı
 
 Pazar 20:45 (TSİ) koşan zamanlanmış görevin yaptığı iş.
-Kaynak Buffer'daki Instagram taslakları, çıktı Postiz'de (sosyal.veriteknik.com) **taslak**.
+Kaynak Buffer'daki LinkedIn taslakları, çıktı Postiz'de (sosyal.veriteknik.com) **taslak**.
 Hiçbir şey yayınlanmaz veya zamanlanmaz; yayın kararı Cem'de.
+Instagram, Facebook, Threads ve YouTube Postiz'de; LinkedIn ve X Buffer'da.
 
-1. **Seçim.** Buffer (org `6888f5e649f7b6ba27236704`) Instagram kanalındaki (`6888f667cdb92dce1998581f`) `draft` gönderileri listelenir.
+1. **Seçim.** Buffer (org `6888f5e649f7b6ba27236704`) LinkedIn kanalındaki (`6888f7a4cdb92dce19adf5c7`) `draft` gönderileri listelenir.
    Video taşımayan ve `state/processed.json` içinde olmayanlar işlenir; en fazla 2 tane, en yenisi önce.
 2. **Şablon.** Sürüm notu taslağı (`vX.Y.Z yayında` ile başlar) `tools/cards.html` + `tools/render-cards.mjs` ile yapılır (`tools/releases/*.json` örnek).
    Diğer konular `tools/reel.html` + `tools/render.mjs` ile yapılır; gerekiyorsa yalnız **salt okunur** bir VeriTeknik MCP çağrısı (yalnız `test-lab-01`).
