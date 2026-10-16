@@ -1,0 +1,112 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../tools/node_modules/@fontsource/inter/600.css">
+<link rel="stylesheet" href="../../tools/node_modules/@fontsource/inter/700.css">
+<link rel="stylesheet" href="../../tools/node_modules/@fontsource/jetbrains-mono/500.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1800px;height:1000px;background:#0b0d16;font-family:Inter,sans-serif;color:#e7eaf3;display:flex;flex-direction:column;align-items:center;padding:50px}
+h1{font-size:40px;margin-bottom:8px}
+p.s{color:#8a93ab;font-size:22px;margin-bottom:36px}
+.row{display:flex;gap:40px}
+.c{width:540px;height:700px;border-radius:28px;border:1.5px solid #232a40;display:flex;flex-direction:column;align-items:center;padding:30px}
+.c h2{font-size:30px;margin-top:14px}
+.c .d{font-size:19px;color:#8a93ab;text-align:center;margin-top:8px;line-height:1.4}
+.k{font-family:'JetBrains Mono';font-size:16px;color:#7c5cff;margin-top:10px}
+</style></head><body>
+<h1>Güve: anlatıcı karakter taslakları</h1>
+<p class="s">1947'de Harvard Mark II'nin rölesinden çıkan güve. Özgün çizim, üç yön.</p>
+<div class="row">
+
+<!-- A: Retro 1947 -->
+<div class="c" style="background:#efe4c8;color:#2b2318">
+<svg width="440" height="440" viewBox="0 0 440 440">
+  <!-- logbook lines -->
+  <g stroke="#c9b98f" stroke-width="2">
+    <line x1="0" y1="70" x2="440" y2="70"/><line x1="0" y1="130" x2="440" y2="130"/><line x1="0" y1="190" x2="440" y2="190"/>
+    <line x1="0" y1="250" x2="440" y2="250"/><line x1="0" y1="310" x2="440" y2="310"/><line x1="0" y1="370" x2="440" y2="370"/>
+  </g>
+  <!-- wings -->
+  <g fill="#8a6f4e" stroke="#4a3a28" stroke-width="5" stroke-linejoin="round">
+    <path d="M220 200 C150 110 60 110 55 180 C50 240 120 260 210 235 Z"/>
+    <path d="M220 200 C290 110 380 110 385 180 C390 240 320 260 230 235 Z"/>
+    <path d="M215 238 C150 260 105 320 140 345 C175 370 210 300 220 255 Z" fill="#a6875f"/>
+    <path d="M225 238 C290 260 335 320 300 345 C265 370 230 300 220 255 Z" fill="#a6875f"/>
+  </g>
+  <g fill="#d9c49a"><circle cx="115" cy="185" r="18"/><circle cx="325" cy="185" r="18"/></g>
+  <!-- body -->
+  <ellipse cx="220" cy="245" rx="26" ry="70" fill="#5b4632" stroke="#3a2c1e" stroke-width="5"/>
+  <!-- head -->
+  <circle cx="220" cy="165" r="40" fill="#6b5339" stroke="#3a2c1e" stroke-width="5"/>
+  <!-- round spectacles -->
+  <g fill="#fff8e6" stroke="#2b2318" stroke-width="5"><circle cx="203" cy="162" r="15"/><circle cx="237" cy="162" r="15"/></g>
+  <line x1="218" y1="162" x2="222" y2="162" stroke="#2b2318" stroke-width="5"/>
+  <g fill="#2b2318"><circle cx="205" cy="164" r="5"/><circle cx="239" cy="164" r="5"/></g>
+  <path d="M207 186 Q220 196 233 186" stroke="#2b2318" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- antennae -->
+  <g stroke="#3a2c1e" stroke-width="5" fill="none" stroke-linecap="round"><path d="M205 130 C195 95 170 85 160 90"/><path d="M235 130 C245 95 270 85 280 90"/></g>
+  <!-- bow tie -->
+  <path d="M205 208 L220 216 L235 208 L235 226 L220 218 L205 226 Z" fill="#a33b2b" stroke="#2b2318" stroke-width="3"/>
+  <!-- tape strip -->
+  <rect x="120" y="275" width="200" height="34" rx="3" fill="#f6efd9" opacity=".75" transform="rotate(-8 220 292)"/>
+  <text x="220" y="420" text-anchor="middle" font-family="'JetBrains Mono'" font-size="17" fill="#6b5a3e">1545 Relay #70 Panel F (moth) in relay.</text>
+</svg>
+<h2>A. Retro 1947</h2>
+<div class="d" style="color:#5b4a33">Sepya, yuvarlak gözlük, papyon, kanadında seyir defteri bandı. Tarih videolarına en uygun.</div>
+<div class="k" style="color:#a33b2b">ton: bilge, eski kafa, esprili</div>
+</div>
+
+<!-- B: Minimal cute -->
+<div class="c" style="background:#141533">
+<svg width="440" height="440" viewBox="0 0 440 440">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fb2ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#e05cff"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#7c5cff" stop-opacity=".45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="220" cy="230" r="200" fill="url(#glow)"/>
+  <g fill="url(#g)">
+    <ellipse cx="125" cy="215" rx="95" ry="75" transform="rotate(-20 125 215)"/>
+    <ellipse cx="315" cy="215" rx="95" ry="75" transform="rotate(20 315 215)"/>
+    <ellipse cx="150" cy="300" rx="55" ry="42" transform="rotate(25 150 300)" opacity=".85"/>
+    <ellipse cx="290" cy="300" rx="55" ry="42" transform="rotate(-25 290 300)" opacity=".85"/>
+  </g>
+  <ellipse cx="220" cy="250" rx="62" ry="80" fill="#f3f1ff"/>
+  <g fill="#1b1838"><ellipse cx="196" cy="235" rx="15" ry="20"/><ellipse cx="244" cy="235" rx="15" ry="20"/></g>
+  <g fill="#fff"><circle cx="201" cy="228" r="6"/><circle cx="249" cy="228" r="6"/></g>
+  <path d="M206 268 Q220 280 234 268" stroke="#1b1838" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <g fill="#ffb3d9" opacity=".7"><ellipse cx="180" cy="262" rx="10" ry="6"/><ellipse cx="260" cy="262" rx="10" ry="6"/></g>
+  <g stroke="#f3f1ff" stroke-width="6" fill="none" stroke-linecap="round"><path d="M200 175 C190 140 175 125 160 120"/><path d="M240 175 C250 140 265 125 280 120"/></g>
+  <g fill="#7fb2ff"><circle cx="158" cy="119" r="11"/><circle cx="282" cy="119" r="11"/></g>
+</svg>
+<h2>B. Sevimli minimal</h2>
+<div class="d">Marka degradesi, büyük gözler, parlayan anten uçları. TikTok'ta en hızlı sempati, en kolay hareket.</div>
+<div class="k">ton: meraklı, şakacı</div>
+</div>
+
+<!-- C: Circuit -->
+<div class="c" style="background:#07120f">
+<svg width="440" height="440" viewBox="0 0 440 440">
+  <g fill="#0f2a22" stroke="#2ee6a6" stroke-width="4" stroke-linejoin="round">
+    <path d="M220 190 L120 110 L45 150 L60 240 L210 240 Z"/>
+    <path d="M220 190 L320 110 L395 150 L380 240 L230 240 Z"/>
+    <path d="M212 248 L120 270 L130 345 L215 290 Z"/>
+    <path d="M228 248 L320 270 L310 345 L225 290 Z"/>
+  </g>
+  <g stroke="#2ee6a6" stroke-width="3" fill="none" opacity=".8">
+    <path d="M200 205 H150 V160 H100"/><path d="M200 225 H110 V200 H70"/><path d="M240 205 H290 V160 H340"/><path d="M240 225 H330 V200 H370"/>
+    <path d="M205 262 H160 V310"/><path d="M235 262 H280 V310"/>
+  </g>
+  <g fill="#2ee6a6"><circle cx="100" cy="160" r="6"/><circle cx="70" cy="200" r="6"/><circle cx="340" cy="160" r="6"/><circle cx="370" cy="200" r="6"/><circle cx="160" cy="312" r="6"/><circle cx="280" cy="312" r="6"/></g>
+  <rect x="196" y="160" width="48" height="150" rx="18" fill="#1c2b26" stroke="#9fb7ae" stroke-width="4"/>
+  <g stroke="#9fb7ae" stroke-width="3"><line x1="196" y1="200" x2="244" y2="200"/><line x1="196" y1="235" x2="244" y2="235"/><line x1="196" y1="270" x2="244" y2="270"/></g>
+  <rect x="186" y="110" width="68" height="58" rx="14" fill="#1c2b26" stroke="#9fb7ae" stroke-width="4"/>
+  <g fill="#ff5c5c"><rect x="200" y="128" width="14" height="14" rx="3"/><rect x="226" y="128" width="14" height="14" rx="3"/></g>
+  <g stroke="#9fb7ae" stroke-width="4" fill="none" stroke-linecap="round"><path d="M205 110 L190 70 L175 66"/><path d="M235 110 L250 70 L265 66"/></g>
+  <g fill="#ffd25c"><circle cx="173" cy="66" r="7"/><circle cx="267" cy="66" r="7"/></g>
+  <text x="220" y="410" text-anchor="middle" font-family="'JetBrains Mono'" font-size="18" fill="#2ee6a6">ERR 0x0F47  // relay 70</text>
+</svg>
+<h2 style="color:#e7fff6">C. Devre güvesi</h2>
+<div class="d" style="color:#8fb5a8">Kanatları baskı devre, gözleri LED. Teknik izleyiciye "bizden" görünür, en ayırt edici siluet.</div>
+<div class="k" style="color:#2ee6a6">ton: kuru, teknik, alaycı</div>
+</div>
+
+</div>
+</body></html>
