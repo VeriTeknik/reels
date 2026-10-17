@@ -14,20 +14,44 @@ spec.json (in this repo, next to the video):
     "threadsText": "<= 500 chars for Threads",
     "title":       "YouTube / Facebook video title",
     "channels":    ["facebook", "instagram", "threads", "youtube"],   # optional
-    "channelName": "VeriTeknik"                  # optional, filters by account name
+    "channelName": "VeriTeknik",                 # optional, filters by account name
+    "date":        "2026-10-20T09:20:00+03:00"   # optional, must be in the future
   }
+
+The draft's date is a proposed publish time, never the run time: a draft dated
+in the past is hidden from the List view and would go out at once if it were
+scheduled. Default is the next 09:20 Istanbul time at least 2 hours ahead.
 """
 import json
 import os
 import sys
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 BASE = os.environ.get("POSTIZ_BASE", "http://127.0.0.1:4007/api/public/v1")
 KEY_FILE = os.environ.get("POSTIZ_API_KEY_FILE", "/opt/postiz/api-key")
 RAW = "https://raw.githubusercontent.com/VeriTeknik/reels/main/"
 THREADS_MAX = 500
+IST = timezone(timedelta(hours=3))   # Türkiye has no DST since 2016
+SLOT = (9, 20)
+MIN_LEAD = timedelta(hours=2)
+
+
+def draft_date(spec, now=None):
+    now = now or datetime.now(timezone.utc)
+    if spec.get("date"):
+        d = datetime.fromisoformat(spec["date"].replace("Z", "+00:00"))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=IST)
+        if d <= now + MIN_LEAD:
+            sys.exit(f"spec date {spec['date']} is not at least {MIN_LEAD} in the future")
+    else:
+        local = now.astimezone(IST)
+        d = local.replace(hour=SLOT[0], minute=SLOT[1], second=0, microsecond=0)
+        while d <= now + MIN_LEAD:
+            d += timedelta(days=1)
+    return d.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 
 def key():
@@ -89,6 +113,7 @@ def main():
     if len(spec["threadsText"]) > THREADS_MAX:
         sys.exit(f"threadsText is {len(spec['threadsText'])} chars, max {THREADS_MAX}")
 
+    date = draft_date(spec)   # validate before uploading anything
     wanted = spec.get("channels") or ["facebook", "instagram", "threads", "youtube"]
     name = spec.get("channelName", "VeriTeknik").lower()
     chans = [i for i in integrations()
@@ -112,12 +137,12 @@ def main():
 
     res = call("POST", "/posts", {
         "type": "draft",
-        "date": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+        "date": date,
         "shortLink": False,
         "tags": [],
         "posts": posts,
     })
-    print(json.dumps({"draft": res, "channels": sorted(found), "missing": missing,
+    print(json.dumps({"draft": res, "date": date, "channels": sorted(found), "missing": missing,
                       "media": media.get("path")}, ensure_ascii=False))
 
 
