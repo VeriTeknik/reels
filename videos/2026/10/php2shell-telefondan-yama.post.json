@@ -1,0 +1,7 @@
+{
+  "video": "videos/2026/10/php2shell-telefondan-yama.mp4",
+  "text": "PHP, 21 Ekim 2026'da iki kritik açık için acil güvenlik sürümü yayımladı: CVE-2026-109618 ve CVE-2026-109619.\nDüzeltilmiş sürümler: 8.5.12, 8.4.27, 8.3.36, 8.2.35.\nAçıklar kimlik doğrulaması olmadan uzaktan kod çalıştırmaya izin veriyor.\n\nTelefondan tek bir cümleyle Claude'a, VeriTeknik MCP üzerinden 6 sunucumu kontrol ettirdim:\n• PHP sürümleri ve paket kayıtları okundu\n• 2 sunucu etkilenmiş çıktı (Ubuntu 26.04 / php8.5, AlmaLinux 10 / php 8.3)\n• Dağıtımların yamalı paketleri kuruldu, php-fpm yeniden başlatıldı\n• Sistemi değiştiren her komut önce plan olarak gösterildi, onayla çalıştı\n\nGerçek süre yaklaşık 5 dakika; video hızlandırıldı.\n\nKaynaklar: PHP 8.5.12 sürüm notu (php-src GitHub), Ubuntu USN-8948-1, AlmaLinux 21 Ekim 2026 duyurusu.\n\nveriteknik.com\n\n#php #linux #siberguvenlik #sysadmin #VeriTeknik",
+  "threadsText": "PHP'de 21 Ekim'de yamalanan iki kritik açık: CVE-2026-109618 ve CVE-2026-109619.\n\nTelefondan tek cümle yazdım; Claude, VeriTeknik MCP ile 6 sunucuyu taradı, etkilenen 2 sunucuyu dağıtımın yamalı paketleriyle güncelledi. Her komut önce plan olarak gösterildi.\n\nGerçek süre ~5 dk, video hızlandırıldı.\n\n#siberguvenlik\nveriteknik.com",
+  "title": "PHP açığını telefondan yamaladım: Claude + VeriTeknik MCP #Shorts",
+  "bufferPostId": "6ada6921e374ecc9822296c4"
+}
