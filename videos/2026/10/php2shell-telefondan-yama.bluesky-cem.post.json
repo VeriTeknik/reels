@@ -1,0 +1,10 @@
+{
+  "video": "videos/2026/10/php2shell-telefondan-yama.mp4",
+  "text": "PHP'de 21 Ekim'de yamalanan iki kritik açık: CVE-2026-109618 ve CVE-2026-109619.\n\nTelefondan tek cümle yazdım; Claude, VeriTeknik MCP ile 6 sunucuyu taradı, etkilenen 2 sunucuyu dağıtımın yamalı paketleriyle güncelledi.\n\nGerçek süre ~5 dk, video hızlandırıldı.\n\n#siberguvenlik\nveriteknik.com",
+  "threadsText": "PHP'de 21 Ekim'de yamalanan iki kritik açık: CVE-2026-109618 ve CVE-2026-109619.\n\nTelefondan tek cümle yazdım; Claude, VeriTeknik MCP ile 6 sunucuyu taradı, etkilenen 2 sunucuyu dağıtımın yamalı paketleriyle güncelledi. Her komut önce plan olarak gösterildi.\n\nGerçek süre ~5 dk, video hızlandırıldı.\n\n#siberguvenlik\nveriteknik.com",
+  "title": "PHP açığını telefondan yamaladım: Claude + VeriTeknik MCP #Shorts",
+  "channels": [
+    "bluesky"
+  ],
+  "channelName": "Cem"
+}
