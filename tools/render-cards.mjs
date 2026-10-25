@@ -28,7 +28,7 @@ for (const e of est) {
 const cues = S.map((s, i) => [i === 0 ? 0.05 : bounds[i - 1][1] - 0.05, i === S.length - 1 ? DUR : bounds[i][0] + 0.1, s.caption]);
 console.log(JSON.stringify({ DUR, cues: cues.map(c => [c[0].toFixed(2), c[1].toFixed(2), c[2].slice(0, 30)]) }));
 
-const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' }).catch(() => chromium.launch());
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' }).catch(() => chromium.launch());
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
 await page.addInitScript(d => { window.DATA = d; }, { ...D, cues });
 await page.goto('file://' + path.resolve(path.dirname(new URL(import.meta.url).pathname), 'cards.html'));

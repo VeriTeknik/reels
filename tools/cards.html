@@ -46,8 +46,13 @@
 const D = window.DATA;
 const $ = id => document.getElementById(id);
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x)); const ease=x=>1-Math.pow(1-clamp(x,0,1),3);
-$('pill').textContent = 'v' + D.version;
-$('ver').textContent = 'v' + D.version;
+$('pill').textContent = D.pill || ('v' + D.version);
+$('ver').textContent = D.hero || ('v' + D.version);
+if (D.heroSub) document.querySelector('.hero .s').textContent = D.heroSub;
+if (D.cta) { const h = document.querySelector('.cta h2'); h.textContent = D.cta.line1; h.appendChild(document.createElement('br'));
+  const g = document.createElement('span'); g.className = 'grad'; g.textContent = D.cta.line2; h.appendChild(g);
+  document.querySelector('.cta .link').textContent = D.cta.link || 'veriteknik.com'; }
+if (D.foot) document.querySelector('.foot').textContent = D.foot;
 const list = $('list');
 const cards = D.cards.map(c => { const el = document.createElement('div'); el.className='card';
   el.innerHTML = `<div class="ic">${c.icon}</div><div><div class="t"></div><div class="u"></div></div>`;

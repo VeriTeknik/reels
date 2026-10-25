@@ -1,0 +1,25 @@
+{
+ "pill": "Açık kaynak",
+ "hero": "Rosetta",
+ "heroSub": "Herkese kendi dilinde",
+ "cta": {"line1": "VeriTeknik Rosetta", "line2": "açık kaynak olarak geliyor", "link": "veriteknik.com"},
+ "foot": "VeriTeknik Rosetta",
+ "cards": [
+  {"icon": "🪨", "title": "Tek gerçek, üç yazı", "sub": "MÖ 196: hiyeroglif, demotik, Grekçe"},
+  {"icon": "📊", "title": "Yöneticiye tek cümle", "sub": "Aynı sistem gerçeğinden özet"},
+  {"icon": "🧑‍💻", "title": "Ekibe self-service", "sub": "Mühendise tam derinlik"},
+  {"icon": "🔐", "title": "Yetki Active Directory'den", "sub": "AI yalnız sizin görebildiğiniz veriyle konuşur"},
+  {"icon": "🏠", "title": "Kendi sunucunuzda", "sub": "Her şey sizin altyapınızda çalışır"}
+ ],
+ "sentences": [
+  {"spoken": "Milattan önce yüz doksan altıda bir ferman, tek taşa üç ayrı yazıyla kazındı.", "caption": "MÖ 196'da bir ferman, tek taşa üç ayrı yazıyla kazındı."},
+  {"spoken": "Tek gerçek, her okura kendi dilinde.", "caption": "Tek gerçek, her okura kendi dilinde."},
+  {"spoken": "VeriTeknik Rozetta'da aynı sistem gerçeği, yöneticiye tek cümlelik özet olarak ulaşır.", "caption": "VeriTeknik Rosetta'da aynı sistem gerçeği, yöneticiye tek cümlelik özet olarak ulaşır."},
+  {"spoken": "Ekibe self servis, mühendise tam derinlik.", "caption": "Ekibe self-service, mühendise tam derinlik."},
+  {"spoken": "Yetki kapsamı Ektiv Dairektıri'den türer; yapay zekâ yalnız sizin görebildiğiniz veriyle konuşur.", "caption": "Yetki kapsamı Active Directory'den türer; AI yalnız sizin görebildiğiniz veriyle konuşur."},
+  {"spoken": "Her şey kendi sunucunuzda çalışır.", "caption": "Her şey kendi sunucunuzda çalışır."},
+  {"spoken": "Açık kaynak olarak geliyor.", "caption": "Açık kaynak olarak geliyor: veriteknik.com"}
+ ],
+ "postId": "6a7369d4739261512b336751",
+ "voice": "ElevenLabs eleven_v4, Aytuğ Akıncılar (tXRnby5LTnvbvDWMCJWO)"
+}
