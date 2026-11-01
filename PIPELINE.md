@@ -12,7 +12,7 @@ Instagram, Facebook, Threads ve YouTube Postiz'de; LinkedIn ve X Buffer'da.
    Konu bir çağrıyla gösterilemiyorsa çağrı yapılmaz; uydurma çıktı gösterilmez.
 3. **Ses.** 20-30 sn Türkçe metin, taslakla aynı olgular.
    Telaffuz: MCP → "Emsipi", Claude → "Klod", fail2ban → "fail-tu-ben", DNS → "De en es", Morpheus → "Morfius".
-   ElevenLabs (01.11.2026'dan beri; Fish Audio free planda kredisi tükendi): `creative_generate_speech`, model `eleven_v3`, ses `RDNgFQdRVzvDdSV3I6nb` ("Fatih - Dynamic, Engaging and Modern"), `generations_count: 1`.
+   ElevenLabs (01.11.2026'dan beri; Fish Audio free planda kredisi tükendi): `creative_generate_speech`, model `eleven_v3`, ses `G5ureynDv8KYGdp7yzj1` ("Cem", Cem'in klon sesi), `generations_count: 1`.
    Çağrı hemen döner; `creative_get_flow_run_status` ile `all_completed` olana kadar yoklanır, `media[0].url` (2 saat geçerli imzalı adres) curl ile indirilir.
    Maliyet karakter başına yaklaşık 1 kredi (72 karakterlik deneme: 72 kredi); metin 500 baytı geçmez.
    Başarısız üretim yeniden çağrılmaz (her çağrı ayrı ücretlenir); o taslak atlanır.
