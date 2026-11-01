@@ -12,13 +12,16 @@ Instagram, Facebook, Threads ve YouTube Postiz'de; LinkedIn ve X Buffer'da.
    Konu bir çağrıyla gösterilemiyorsa çağrı yapılmaz; uydurma çıktı gösterilmez.
 3. **Ses.** 20-30 sn Türkçe metin, taslakla aynı olgular.
    Telaffuz: MCP → "Emsipi", Claude → "Klod", fail2ban → "fail-tu-ben", DNS → "De en es", Morpheus → "Morfius".
-   Fish Audio, ses `241fac3c0dd14046a1f31816d9cdcc6d` ("TÜRKÇE ERKEK SES"), çağrı başına ≤500 bayt.
+   ElevenLabs (01.11.2026'dan beri; Fish Audio free planda kredisi tükendi): `creative_generate_speech`, model `eleven_v3`, ses `RDNgFQdRVzvDdSV3I6nb` ("Fatih - Dynamic, Engaging and Modern"), `generations_count: 1`.
+   Çağrı hemen döner; `creative_get_flow_run_status` ile `all_completed` olana kadar yoklanır, `media[0].url` (2 saat geçerli imzalı adres) curl ile indirilir.
+   Maliyet karakter başına yaklaşık 1 kredi (72 karakterlik deneme: 72 kredi); metin 500 baytı geçmez.
+   Başarısız üretim yeniden çağrılmaz (her çağrı ayrı ücretlenir); o taslak atlanır.
 4. **Render.** 1080x1920 MP4; altyazılar sesteki duraklamalardan (ffmpeg `silencedetect`) zamanlanır.
 5. **Depo.** `videos/YYYY/MM/<slug>.mp4` ve yanına `<slug>.post.json` (aşağıda) itilir; `state/processed.json`'a Buffer post id eklenir.
 6. **Postiz taslağı.** Sunucuda `tools/postiz-draft.py <slug>.post.json` çalışır (VeriTeknik MCP `run_admin_command`, sunucu `0adee949-497f-4602-97aa-4a020de547c1`).
    Facebook, Instagram (Reel), Threads ve YouTube (VeriTeknik) kanallarına tek taslak grubu açar.
    API anahtarı sunucuda `/opt/postiz/api-key` (root, 600) dosyasındadır; komutlarda ve çıktıda geçmez.
-7. **Özet.** İşlenen taslaklar, MCP çağrıları, harcanan Fish kredisi, Postiz taslak sonucu.
+7. **Özet.** İşlenen taslaklar, MCP çağrıları, harcanan ElevenLabs kredisi, Postiz taslak sonucu.
 
 ## `<slug>.post.json`
 
