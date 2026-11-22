@@ -1,0 +1,26 @@
+{
+ "pill": "BGYS belgesi",
+ "hero": "ISO/IEC 27001:2022",
+ "heroSize": "84px",
+ "heroSub": "Bilgi güvenliği yönetim sistemimiz belgeli",
+ "cta": {"line1": "Kapsamın tam metni ve", "line2": "TÜRKAK doğrulaması", "link": "veriteknik.com/sertifikalar"},
+ "foot": "Proks Belgelendirme · IS-261247 · yıllık gözetim denetimi",
+ "cards": [
+  {"icon": "🏛️", "title": "TÜRKAK akrediteli Proks", "sub": "Sertifika numarası IS-261247"},
+  {"icon": "✅", "title": "İlk onay 10.11.2026", "sub": "Her yıl gözetim denetiminden geçer"},
+  {"icon": "☁️", "title": "Yazılım geliştirme", "sub": "OpsHub ve CC/CR modülü dahil"},
+  {"icon": "🖥️", "title": "Barındırma ve yönetilen BT", "sub": "Kiralık ve sanal sunucu, tasarımdan desteğe"},
+  {"icon": "📋", "title": "Kendi BGYS altyapımız", "sub": "Risk, kontrol, bulgu, DÖF aynı panelde"}
+ ],
+ "sentences": [
+  {"spoken": "Bilgi güvenliği yönetim sistemimiz iso yirmi yedi bin bir, iki bin yirmi iki belgeli.", "caption": "Bilgi güvenliği yönetim sistemimiz ISO/IEC 27001:2022 belgeli."},
+  {"spoken": "Belgeyi Türkak akrediteli Proks Belgelendirme verdi.", "caption": "Belgeyi TÜRKAK akrediteli Proks Belgelendirme verdi."},
+  {"spoken": "İlk onay on kasım iki bin yirmi altı; belge her yıl gözetim denetiminden geçer.", "caption": "İlk onay 10.11.2026; belge her yıl gözetim denetiminden geçer."},
+  {"spoken": "Kapsamda OpsHab platformu dahil yazılım geliştirme var.", "caption": "Kapsamda OpsHub platformu dahil yazılım geliştirme var."},
+  {"spoken": "Sunucu barındırma ve yönetilen bilişim hizmetleri de kapsamda.", "caption": "Sunucu barındırma ve yönetilen bilişim hizmetleri de kapsamda."},
+  {"spoken": "Denetime kendi geliştirdiğimiz Be Ge Ye Se altyapısıyla girdik.", "caption": "Denetime kendi geliştirdiğimiz BGYS altyapısıyla girdik."},
+  {"spoken": "Kapsamın tam metni sertifikalar sayfamızda.", "caption": "Kapsamın tam metni: veriteknik.com/sertifikalar"}
+ ],
+ "postId": "6b00b2bd6f199ec35b7f4044",
+ "voice": "ElevenLabs eleven_v3, Cem (G5ureynDv8KYGdp7yzj1)"
+}
